@@ -4,9 +4,9 @@ import javax.persistence.*;
 
 @Entity(name = "picture")
 @NamedQueries(value = {
-        @NamedQuery(name = "Pictures.getByIdProfile", query = "SELECT p FROM picture p WHERE p.idProfila = :idProfila"),
-        @NamedQuery(name = "Pictures.getById", query = "SELECT p FROM picture p WHERE p.id = :id"),
-        @NamedQuery(name = "Pictures.getAll", query = "SELECT p FROM picture p")
+        @NamedQuery(name = "Picture.getByIdProfile", query = "SELECT p FROM picture p WHERE p.idProfila = :idProfila"),
+        @NamedQuery(name = "Picture.getById", query = "SELECT p FROM picture p WHERE p.id = :id"),
+        @NamedQuery(name = "Picture.getAll", query = "SELECT p FROM picture p")
 })
 public class Picture {
 

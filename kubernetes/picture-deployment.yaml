@@ -13,7 +13,7 @@ spec:
         app: picture
     spec:
       containers:
-      - image: rsovaje/picture:0.2
+      - image: rsovaje/picture:0.3
         name: picture
         env:
         - name: KUMULUZEE_DISCOVERY_CLUSTER
