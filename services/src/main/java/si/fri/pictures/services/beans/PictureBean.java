@@ -26,7 +26,7 @@ public class PictureBean {
     private AppProperties appProperties;
 
     @Inject
-    private PictureBean catalogueBean;
+    private PictureBean pictureBean;
 
     private Client httpClient;
 
